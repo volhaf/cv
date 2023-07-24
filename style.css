@@ -69,6 +69,7 @@ p {
 .navigation__item-link {
     color: var(--navigation-color);
     padding: 20px 0px;
+    transition: .3s;
 
 }
 
@@ -137,6 +138,7 @@ border-bottom: 10px solid var(--background-color);
 .contacts__link:hover,
 .contacts__link:focus {
     color: var(--header-color);
+    transition: .3s;
 }
 
 
@@ -204,6 +206,7 @@ border-bottom: 10px solid var(--background-color);
 .expierence-link:hover,
 .expierence-link:focus {
     color: var(--header-color);
+    transition: .3s;
 }
 
 .expierence__item {
