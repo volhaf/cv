@@ -247,6 +247,20 @@ border-bottom: 10px solid var(--background-color);
     width: 400px;
 }
 
+.edukation__link {
+    text-decoration: none;
+    list-style: none;
+    color: var(--content-color); 
+    font-size: 1em;
+}
+
+.edukation__link:hover,
+.edukation__link:focus {
+    color: var(--header-color);
+    transition: .3s;
+}
+
+
 /* footer  */
 
 .footer__conteiner {
